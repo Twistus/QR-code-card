@@ -120,21 +120,21 @@ body {
 	margin-inline: auto;
 }
 
-.qr-card,
+.card,
 .card__image {
 	overflow: hidden;
 	border-radius: var(--bd-rad);
 }
 
-.qr-card {
+.card {
 	padding: min(5vw, 1em);
 	transition: transform 500ms ease;
 	background-color: transparent;
 	animation: bg-color 1000ms ease 1500ms 1 forwards;
 }
 
-.qr-card:hover,
-.qr-card:focus-within {
+.card:hover,
+.card:focus-within {
 	transform: scale(1.05);
 }
 
